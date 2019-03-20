@@ -8,4 +8,4 @@ Assignment Task:  Added one sibling selector to your last assignment.
 
 Assignment Task:  Added an adjacent sibling selector to your last assignment.
 
-Assignment Task:  In the tasklist.txt file, cut and paste all the assignment task steps from this presentation and then commit and push the file to the remote repository.
+Assignment Task:  In the tasklist.txt file, cut and paste all the assignment task steps from this presentation and then commit and push the file to the remote repository.
