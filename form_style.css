@@ -5,13 +5,19 @@ html {
 h1 {
 	font-family: Calibri, sans-serif, arial;
 	font-size: 2.0em;
-	color: #60277a
 }
 
 h2 {
 	font-family: Calibri, sans-serif, arial;
 	font-size: 2.0em;
-	color: #fff159
+}
+
+div > h1 {
+	color: #60277a;
+}
+
+div > h2 {
+	color: #fff159;
 }
 
 p, legend {
@@ -28,14 +34,30 @@ p, legend {
 	.required input:after { content:"*"; }
 }
 
-@media screen and (max-width: 480px) {
+div legend {
+  color: pink;
+}
+
+div label1 {
+  color: purple;
+}
+
+div ~ p {
+	font-style: italic;
+}
+
+h1 + h2 {
+	text-decoration: underline;
+}	
+
+@media screen and (max-width: 520px) {
 	
 *,
 *:before,
 *:after {    
 	box-sizing: border-box;
 } 
-
+		
 form {   
 	border: 2px solid #c6c7cc;
 	border-radius: 5px;   
