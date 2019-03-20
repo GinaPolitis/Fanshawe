@@ -1,0 +1,62 @@
+<html>
+
+<head>
+	<title>Box Model</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+.filledBox {
+	background-color: LightBlue;
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+nav {
+	background-color: purple;
+	width: 500px;
+	height: 500px;
+	margin-top: 25px;
+	margin-right: 40px;
+	margin-bottom: 25px;
+	margin-left: 40px;
+}
+
+p {
+  border: 1px solid black;
+  margin: 25px;
+  background-color: lightblue;
+}
+</style>
+</head>
+
+<body>
+
+<!--The DIV element is a block element, and will start on a new line.-->
+<p>
+<div class="filledBox">Hello</div>
+<div class="filledBox">World</div>
+</p>
+
+<!--A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).-->
+    <nav>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+    </nav>
+
+<!-- The SPAN element is an inline element, and will not start on a new line. -->
+<p>
+<span>Hello</span>
+<span>World</span>
+</p>
+
+<!-- An inline element does not start on a new line and only takes up as much width as necessary.-->
+<p>This is a sample line having <span>a <strong>CAPITAL</strong> letter word</span> and <span>a <small>small</small> letter word</span>.
+
+</body>
+</html>
